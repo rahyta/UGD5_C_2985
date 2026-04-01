@@ -9,9 +9,13 @@ export const metadata: Metadata = {
   description: 'Login and Register System',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body>
         {children}
 
